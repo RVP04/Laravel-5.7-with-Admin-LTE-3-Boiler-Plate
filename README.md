@@ -11,4 +11,4 @@ Create a database and inform .env
 # Screen Shot
 ![alt text](https://i.imgrpost.com/imgr/2018/08/17/Laravel-Starter.png)
 
-#More Updates Coming Soon
+# More Updates Coming Soon
