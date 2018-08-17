@@ -2,7 +2,7 @@
 
 # Installation
 ```
-git clone https://github.com/bestmomo/laravel5-example.git projectname
+git clone https://github.com/RVP04/Laravel-5.7-with-Admin-LTE-3-Boiler-Plate.git projectname
 cd projectname
 composer install
 php artisan key:generate
