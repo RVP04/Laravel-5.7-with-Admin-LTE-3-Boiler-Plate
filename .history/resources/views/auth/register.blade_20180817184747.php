@@ -39,7 +39,7 @@
             </div>
           </div>
           <div class="input-group mb-3">
-            <input id="password-confirm" type="password" class="form-control" name="password_confirmation" placeholder="Confirmation Password" required>
+            <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
             <div class="input-group-append">
               <span class="fa fa-lock input-group-text"></span> @if ($errors->has('password'))
               <span class="invalid-feedback" role="alert">

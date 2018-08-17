@@ -24,7 +24,7 @@
             </div>
           </div>
           <div class="input-group mb-3">
-            <input id="email" type="email" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" placeholder="Your E Mail Address">
+            <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" placeholder="Your E Mail Address"
             <div class="input-group-append">
               <span class="fa fa-envelope input-group-text"></span> @if ($errors->has('email'))
               <span class="invalid-feedback" role="alert">
@@ -33,13 +33,14 @@
             </div>
           </div>
           <div class="input-group mb-3">
-            <input id="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" placeholder="Password" required>
+            <input type="password" class="form-control" placeholder="Password">
             <div class="input-group-append">
               <span class="fa fa-lock input-group-text"></span>
             </div>
           </div>
           <div class="input-group mb-3">
-            <input id="password-confirm" type="password" class="form-control" name="password_confirmation" placeholder="Confirmation Password" required>
+            <input id="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password"
+              required>
             <div class="input-group-append">
               <span class="fa fa-lock input-group-text"></span> @if ($errors->has('password'))
               <span class="invalid-feedback" role="alert">
