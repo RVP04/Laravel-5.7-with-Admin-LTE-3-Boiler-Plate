@@ -1,4 +1,4 @@
-# Laravel-5.6 with Admin-LTE 3-BoilerPlate
+# Laravel-5.7 with Admin-LTE 3-BoilerPlate
 
 # Installation
 ```
