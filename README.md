@@ -9,7 +9,7 @@ php artisan key:generate
 Create a database and inform .env
 ```
 # Screen Shot
-![alt text](https://i.imgrpost.com/imgr/2018/08/17/Untitled.png)
+![alt text](https://i.imgrpost.com/imgr/2018/08/18/demo.png)
 
 ## Built With
 
